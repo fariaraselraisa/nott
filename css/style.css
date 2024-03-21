@@ -1,0 +1,476 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   box-sizing: border-box;
+   
+}
+
+.full{
+   background-color: rgb(237, 243, 245);
+   width: 100%;
+}
+
+.nav{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    width: 100%;
+    object-fit: cover;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ background-color: white;
+ justify-content: center;
+ align-items: center;
+
+ gap: 1.4rem;
+box-shadow:  0px 2px 0px #dcdde1,
+             -1px 0px #ffffff;
+
+   padding: 18px;  
+    
+  object-fit: cover;
+  width: 100%;
+margin-bottom: 2px;
+}
+
+.second a{
+    text-decoration: none;
+     color: #000000;
+}
+
+
+
+
+.button {
+   position: relative;
+   overflow: hidden;
+   height: 2rem;
+   padding:0.5rem;
+   border-radius: 1.5rem;
+   background: #ffffff;
+   cursor: pointer;
+   display: inline-block;
+   line-height: 34px;
+   padding: 0 14px;
+   color: #111;
+   border: 1px solid #ddd;
+   border-radius: 30px;
+   margin: 0 5px 5px 0;
+   font-size: 13px;
+   font-weight: normal;
+ }
+ 
+ .button:hover::before {
+   transform: scaleX(1);
+
+ }
+ 
+ .button-content {
+   position: relative;
+   z-index: 1;
+ }
+ 
+ .button::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: scaleX(0);
+   transform-origin: 0 50%;
+   width: 100%;
+   height: inherit;
+   border-radius: inherit;
+   background: linear-gradient(
+     82.3deg,
+     #0984e3 10.8%,
+     #0984e3 94.3%
+   );
+   transition: all 0.2s;
+ } 
+
+.bar{
+   display: flex;
+   
+margin: 0%;
+flex-direction: column;
+
+box-shadow:  2px 2px 0px #dcdde1,
+             -1px 0px #ffffff;
+
+gap: 3rem;
+
+background-color: #ffffff;
+width: 100%;
+}
+.game{
+   margin-left: 14%;
+   padding: 5px;
+   
+}
+
+.home{ 
+   text-decoration: none;
+   color: #000000;
+}
+
+.but{
+   
+   margin-left: 14%;
+   margin-right: 14%;
+
+}
+  
+.body{
+   display: flex;
+   margin-left: 14%;
+   margin-right: 14%;
+   flex-direction: row;
+   margin-top: 10px;
+
+}
+
+
+.left{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   background-color: #ffffff;
+   margin-bottom: 50px;
+
+}
+  
+
+.right{
+      
+       margin-left: 16px;
+       width: 100%;
+object-fit: cover;
+
+}
+
+
+.range{
+   display: flex;
+   flex-wrap: wrap;
+   
+   box-shadow:  2px 2px 0px #dcdde1,
+             -1px 0px #ffffff; 
+             padding: 20px; 
+   
+
+} 
+
+.value{
+   padding: 35px;
+}
+
+.ran{
+           
+   height:170px ;
+   width: 300px;
+   box-shadow:  2px 2px 0px #dcdde1,
+   -1px 0px #ffffff; 
+}
+
+
+
+.b{
+   display: flex;
+   flex-wrap: wrap;
+
+   box-shadow:  2px 2px 0px #dcdde1,
+             -1px 0px #ffffff; 
+             padding: 20px; 
+
+}
+
+.a{
+     display: flex; 
+     flex-wrap: wrap;
+     
+     flex-direction: column;     
+   height:400px ;
+   width: 300px;
+   box-shadow:  2px 2px 0px #dcdde1,
+   -1px 0px #ffffff;
+   
+
+}
+
+.ac{
+
+   display: flex; 
+   flex-wrap: wrap;
+   flex-direction: column;     
+ height:325px ;
+ width: 300px;
+ box-shadow:  2px 2px 0px #dcdde1,
+ -1px 0px #ffffff;
+
+}
+
+.d{
+
+
+   padding-left: 15px;
+}
+
+.c{
+
+   padding-top: 15px;
+   display: flex; 
+   flex-wrap: wrap;
+   flex-direction: column;    
+   row-gap: 0rem; 
+ 
+}
+
+
+.top{
+
+display: flex;
+flex-wrap: wrap;
+margin-left: 16px;
+
+box-shadow:  2px 2px 0px #dcdde1,
+   -1px 0px #ffffff;
+   background-color: #ffffff;
+   padding: 20px;
+   width: 100%;
+justify-content: space-between;
+
+
+}
+
+
+.topone{
+
+   font-family: sans-serif;
+}
+
+
+.card{
+     
+   background-color: #ffffff;
+   
+   padding: 20px;
+   box-shadow: 10px 10px 30px #ccc;
+   margin-left: 16px;
+   position: relative;
+   width: 24%;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   
+}
+.card img{
+   width: 100%;
+   box-shadow:  0px 1px 0px #dcdde1,
+   -1px 0px #ffffff;
+}
+
+.card .contains{
+   width: 100%;
+   box-shadow:  0px 1px 0px #dcdde1,
+   -1px 0px #ffffff;
+
+}
+.card .save{
+   background-color: #6E2594;
+   display: inline-block;
+   padding: 5px;
+   color: #ffffff;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius:15px ;
+   position: absolute;
+   left: 0;
+}
+
+.card ul{
+   padding-left: 15px;
+   padding-bottom: 25px;
+
+}
+.del{
+   text-decoration: line-through;
+
+}
+ .card h4{
+padding-top: 25px;
+
+}
+.card a{
+   text-decoration: none;
+   color: #000000;
+}
+
+.price{
+   padding-top: 0px;
+   align-items: center;
+   padding-left: 50px;
+   padding-bottom: 10px;
+   
+
+}
+
+.red{
+   color: red;
+   font-size: 20px;
+}
+
+
+.tooltip {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+   border-style: groove;
+   border-radius: 5px;
+   border-color: #044068;
+   margin-left: 18px;
+ }
+ 
+ .tooltip button {
+   background-color: #d8edf0;
+   color: #044068;
+   border: none;
+   padding: 10px 60px;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s, transform 0.2s ease-out;
+   
+ }
+ 
+ .tooltip button:hover {
+   background-color: #054479;
+   transform: scale(1.05);
+   color: #ffffff;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+ }
+ 
+ .tooltiptext {
+   visibility: hidden;
+   width: 160px;
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   border-radius: 8px;
+   padding: 5px;
+   position: absolute;
+   z-index: 1;
+   bottom: 125%;
+   left: 50%;
+   margin-left: -80px;
+   opacity: 0;
+   transition: opacity 0.3s;
+ }
+ 
+ .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #333 transparent transparent transparent;
+ }
+ 
+
+
+ /* last */
+ .to {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+   
+margin-left: 20px;
+
+ }
+ 
+ .to button {
+   background-color: #ffffff;
+   color: #000000;
+   border: none;
+   padding: 10px 40px;
+   border-radius: 5px;
+   font-size: 14px;
+   cursor: pointer;
+   transition: background-color 0.3s, transform 0.2s ease-out;
+   
+ }
+ 
+ .to button:hover {
+   background-color: #fcf0f0;
+   transform: scale(1.05);
+   color: #000000;
+ }
+ 
+ .to:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+ }
+ 
+ .tool {
+   visibility: hidden;
+   width: 160px;
+   background-color: #cec9c9;
+   color: #fff;
+   text-align: center;
+   border-radius: 8px;
+   padding: 5px;
+   position: absolute;
+   z-index: 1;
+   bottom: 125%;
+   left: 50%;
+   margin-left: -80px;
+   opacity: 0;
+   transition: opacity 0.3s;
+ }
+ 
+ .tool::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #ffffff transparent transparent transparent;
+ }
+ 
+
+
+
+ .main .row{
+
+display: flex;
+flex-direction: row;
+width: 100%;
+
+ }
+
+
+ .main .last{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+ }
+
+ .main{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   object-fit: cover;
+   width: 100%;
+ }
